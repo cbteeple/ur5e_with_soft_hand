@@ -21,7 +21,7 @@ roslaunch moveit_setup_assistant setup_assistant.launch
 
 ## Use this for motion planning on the real arm
 ```bash
-roslaunch ur5e_with_soft_hand_moveit_config ur5e_with_soft_hand_moveit_planning_execution.launch limited:=false
+roslaunch ur5e_with_soft_hand_moveit_config ur5e_with_soft_hand_moveit_planning_execution.launch limited:=false &
 
 roslaunch ur5e_with_soft_hand_moveit_config moveit_rviz_2.launch config:=true
 ```
